@@ -5,8 +5,24 @@ body {
   height: 100vh;
 }
 
+.banner h1{
+  color: white;
+  text-shadow: 4px 4px 4px rgba(2, 36, 7, 0.697);
+}
+
+.banner h2{
+  color: white;
+  text-shadow: 4px 4px 4px rgba(2, 36, 7, 0.697);
+
+}
+
+h1{
+  text-shadow: 4px 4px 4px rgba(120, 135, 123, 0.697);
+}
+
 .home a {
   font-size: xx-large;
+  
 }
 .header {
   display: flex;
@@ -39,7 +55,7 @@ body {
 }
 
 a {
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.697);
   text-decoration: none;
 }
 
@@ -57,7 +73,7 @@ a {
   font-size: xxx-large;
   margin-top: 150px;
   white-space: nowrap;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 }
 
 .image {
@@ -73,10 +89,9 @@ a {
 }
 
 .banner {
-  background-color: rgb(1, 23, 4);
-
+  background-color: rgba(2, 36, 7, 0.697);
   width: 1640px;
-  height: 50%;
+  height: 65%;
   text-align: left;
   padding: 20px;
   border-top-left-radius: 50px;
@@ -88,6 +103,7 @@ a {
   text-wrap: nowrap;
   margin-left: 20px;
   font-family: "Verdana", Arial, sans-serif;
+  line-height: 200%;
 
 }
 
@@ -97,6 +113,9 @@ a {
   flex-direction: row;
   justify-content: left;
   margin-left: 200px;
+  position: absolute;
+  left: 950px;
+  top: 720px;
 }
 
 .linked img{
@@ -139,29 +158,34 @@ a {
 
 body {
   font-family: "Verdana", Arial, sans-serif;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 }
 
 .experience {
   margin-bottom: 100px;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 }
 
 .company {
   font-weight: bold;
   font-size: xx-large;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 }
 
 .title {
   font-style: italic;
   font-size: x-large;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 }
 
 .blurb li{
   margin-top: 10px;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
+  line-height: 200%
+}
+
+.blurb{
+  line-height: 200%
 }
 
 .jobs{
@@ -178,14 +202,14 @@ body {
   margin-left: 150px;
   margin-top: 100px;
   font-size: x-large;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 }
 
 .education{
   position: absolute;
   top: 500px; 
   left: 150px;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 
 }
 
@@ -203,13 +227,14 @@ body {
   font-weight: bold;
   margin: 10px 0;
   font-family: "Verdana", Arial, sans-serif;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 }
 
 .description {
   margin: 0;
   font-family: "Verdana", Arial, sans-serif;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
+  line-height: 200%;
 }
 
 .project-flex{
@@ -231,7 +256,7 @@ body {
   margin-bottom: 10px;
   font-family: "Verdana", Arial, sans-serif;
   text-wrap: nowrap;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 
 }
 
@@ -281,7 +306,7 @@ body {
   margin-bottom: 10px;
   font-family: "Verdana", Arial, sans-serif;
   font-size: x-large;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 
 }
 
@@ -293,7 +318,7 @@ body {
   margin-bottom: 10px;
   font-family: "Verdana", Arial, sans-serif;
   font-size: x-large;
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
 
 
 }
@@ -307,7 +332,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  color: rgb(1, 23, 4);
+  color: rgba(2, 36, 7, 0.941);
   position: absolute;
   top: 200px; 
   left: 700px;
