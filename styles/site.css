@@ -33,7 +33,7 @@ h1{
 
 .home {
   margin-right: auto;
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-left: 20px;
   
 }
@@ -42,7 +42,7 @@ h1{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   
 }
 
@@ -102,7 +102,7 @@ a {
   color: white;
   text-wrap: nowrap;
   margin-left: 20px;
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 200%;
 
 }
@@ -157,7 +157,7 @@ a {
 
 
 body {
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: rgba(2, 36, 7, 0.941);
 }
 
@@ -226,13 +226,13 @@ body {
 .title {
   font-weight: bold;
   margin: 10px 0;
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: rgba(2, 36, 7, 0.941);
 }
 
 .description {
   margin: 0;
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: rgba(2, 36, 7, 0.941);
   line-height: 200%;
 }
@@ -254,7 +254,7 @@ body {
 .titles {
   font-weight: bold;
   margin-bottom: 10px;
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-wrap: nowrap;
   color: rgba(2, 36, 7, 0.941);
 
@@ -304,7 +304,7 @@ body {
   top: 300px;
   font-weight: bold;
   margin-bottom: 10px;
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: x-large;
   color: rgba(2, 36, 7, 0.941);
 
@@ -316,7 +316,7 @@ body {
   top: 300px;
   font-weight: bold;
   margin-bottom: 10px;
-  font-family: "Verdana", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: x-large;
   color: rgba(2, 36, 7, 0.941);
 
