@@ -5,19 +5,11 @@ body {
   height: 100vh;
 }
 
-.banner h1{
-  color: white;
-  text-shadow: 4px 4px 4px rgba(2, 36, 7, 0.697);
-}
-
-.banner h2{
-  color: white;
-  text-shadow: 4px 4px 4px rgba(2, 36, 7, 0.697);
-
-}
-
 h1{
-  text-shadow: 4px 4px 4px rgba(120, 135, 123, 0.697);
+  text-shadow: 3px 3px 3px rgba(120, 135, 123, 0.697);
+}
+h2{
+  text-shadow: 3px 3px 3px rgba(120, 135, 123, 0.697);
 }
 
 .home a {
@@ -29,20 +21,21 @@ h1{
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  
 }
 
 .home {
-  margin-right: auto;
   font-family: 'Montserrat', sans-serif;
-  margin-left: 20px;
+  margin-left: 30px;
   
 }
 
 .navigation_bar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
+  margin-right: 30px;
+  font-size:large;
   
 }
 
@@ -76,16 +69,28 @@ a {
   color: rgba(2, 36, 7, 0.941);
 }
 
+.text h2{
+  color: rgba(2, 36, 7, 0.697);
+  line-height: 0%;
+
+}
+
 .image {
-  margin-left: 400px; 
+  margin-left: 200px; 
   margin-top: 400px;
+  margin-right: 100px;
+
 }
 
 
 .image img {
-  max-width: 70%;
+  max-width: 100%;
 
-  max-height: 70%;
+  max-height: 100%;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 6px;
+  
 }
 
 .banner {
@@ -114,8 +119,8 @@ a {
   justify-content: left;
   margin-left: 200px;
   position: absolute;
-  left: 950px;
-  top: 720px;
+  left: -60px;
+  top: 600px;
 }
 
 .linked img{
@@ -141,6 +146,7 @@ a {
 
 .github {
   margin: 10px;
+  margin-left: 20px;
 }
 
 .mail img{
@@ -153,6 +159,20 @@ a {
 
 .mail {
   margin: 10px;
+  margin-left: 20px;
+}
+
+.facebook img{
+  width: 45px;
+  height: 45px;
+  display: block;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.facebook {
+  margin: 10px;
+  margin-left: 25px;
 }
 
 
@@ -339,3 +359,26 @@ body {
 
 }
 
+.buttonlink{
+  background-color: rgba(2, 36, 7, 0.697);
+  width: 245px;
+
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  font-size: 20px;
+  position: absolute;
+  position: absolute;
+  left: 150px;
+  top: 700px;
+
+}
+
+.buttonlink a{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
