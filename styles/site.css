@@ -202,19 +202,10 @@ body {
   color: rgba(2, 36, 7, 0.941);
 }
 
-.education{
-  position: absolute;
-  top: 200px; 
-  left: 900px;
-  color: rgba(2, 36, 7, 0.941);
-  max-width: 500px;
-
-}
-
 .box {
   text-align: center;
   margin: 100px;
-  background-color: rgba(117, 166, 124, 0.697);
+  background-color: rgba(189, 232, 195, 0.697);
   padding: 20px;
   padding-bottom: 50px;
   border-radius: 20px;
